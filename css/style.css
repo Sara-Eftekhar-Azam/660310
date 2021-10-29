@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css?family=Notable");
+
+@import url("https://fonts.googleapis.com/css2?family=Notable&display=swap");
+
+/*
+font-family: 'Notable', sans-serif;
+*/
+
+@media screen and (min-width: 1280px) {
+  /* Header */
+  #hamburgerMenu label,
+  #hamburgerMenu input {
+    display: none;
+  }
+
+  #pageHeader {
+    background-color: #55cdf8; /*rgba(85, 205, 248, 1);*/
+    /*
+    flex-basis: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    */
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  article footer > p {
+    display: none;
+  }
+
+  #headerLogoAndTitles > img {
+    width: 150px;
+  }
+
+  #navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  #navigation li {
+    float: left;
+  }
+  #navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #navigation li a:hover {
+    background-color: #111;
+  }
+  #navigation .active {
+    background-color: #aa15aa; /*rgb(170, 21, 170);*/
+  }
+
+  /* Body */
+  section article h2 {
+    letter-spacing: 4px;
+  }
+  section article p {
+    line-height: 1.31rem;
+    text-indent: 3%;
+    word-spacing: 0.15em;
+  }
+  section article h2:first-letter {
+    font-size: 1.2em;
+  }
+  section article h2 + p {
+    font-size: 1.1em;
+  }
+
+  aside ol li a:hover {
+    color: #0ea00e;
+  }
+  aside ol li a:visited {
+    color: #0ff00f;
+  }
+  aside ol li a:active {
+    color: #099009;
+  }
+
+  body {
+    background-color: #88f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body header section h2 {
+    font-family: "Notable";
+  }
+  body section article h2 {
+    text-transform: uppercase;
+  }
+
+  article {
+    background-color: #55cdf8; /*rgba(85, 205, 248, 1);*/
+    border-style: double double double double;
+    border-width: 2px;
+    border-color: #aa15aa; /*rgb(170, 21, 170);*/
+  }
+  #aside {
+    padding: 6px;
+    background-color: #aa15aa; /*rgb(170, 21, 170);*/
+  }
+  #aside section a img.asideImage {
+    width: 300px;
+  }
+  #product1,
+  #product2,
+  #product3 {
+    background-color: #ff11ff; /*rgb(255, 17, 255);*/
+  }
+
+  /* Footer */
+  #PageFooter {
+    width: 100%;
+  }
+  #copywriteStatement {
+    width: calc(100% - 310px);
+    float: left;
+    background-color: #f2a;
+    color: #ffc72b;;
+  }
+  /*
+  #cookieStatement {
+    width: 300px;
+    float: left;
+    background-color: #fa0;
+    color: #fff;
+    opacity: 0.5;
+  }
+  */
+  #cookieStatement {
+    width: 300px;
+    float: left;
+    background-color: rgba(255, 170, 0, 0.5); /*#fa0*/
+    color: #fff;
+    z-index: 9999;
+  }
+  #PageFooter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2a;
+  }
+  footer {
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 481px) {
+  /* Header */
+  #hamburgerMenu label,
+  #hamburgerMenu input {
+    display: none;
+  }
+
+  article footer > p {
+    display: none;
+  }
+
+  #pageHeader {
+    background-color: #beffbe; /*rgba(190, 255, 190, 1);*/
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  #aside section a img.asideImage {
+    width: 200px;
+  }
+
+  #headerLogoAndTitles > img {
+    width: 100px;
+  }
+
+  #navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  #navigation li {
+    float: left;
+  }
+  #navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #navigation li a:hover {
+    background-color: #111;
+  }
+  #navigation .active {
+    background-color: #88f;
+  }
+
+  /* Body */
+  section article h2 {
+    letter-spacing: 0.15em;
+  }
+  section article p {
+    line-height: 1.2rem;
+    text-indent: 1%;
+    word-spacing: 0.1em;
+  }
+  section article h2:first-letter {
+    font-size: 1.2em;
+  }
+  section article h2 + p {
+    font-size: 1.1em;
+  }
+
+  aside ol li a:hover {
+    color: #cf00ef;
+  }
+  aside ol li a:visited {
+    color: #ff00ff;
+  }
+  aside ol li a:active {
+    color: #af009f;
+  }
+
+  body {
+    background-color: #88f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body header section h2 {
+    font-family: "Notable";
+  }
+  body section article h2 {
+    text-transform: uppercase;
+  }
+
+  article {
+    background-color: #beffbe; /*rgba(190, 255, 190, 1);*/
+    border-style: double double double double;
+    border-width: 2px;
+    border-color: #aa15aa; /*rgb(170, 21, 170);*/
+  }
+  #aside {
+    padding: 6px;
+    background-color: #78ff78; /*rgb(120, 255, 120);*/
+  }
+  #product1,
+  #product2,
+  #product3 {
+    background-color: #78ff78; /*rgb(120, 255, 120);*/
+  }
+
+  /* Footer */
+  #PageFooter {
+    width: 100%;
+  }
+  #copywriteStatement {
+    width: calc(100% - 310px);
+    float: left;
+    background-color: #88f;
+    color: #ffc72b;;
+  }
+  #cookieStatement {
+    width: 300px;
+    float: left;
+    background-color: rgba(255, 170, 0, 0.5); /*#fa0*/
+    /*opacity: 50%;*/
+    color: #fff;
+    z-index: 9999;
+  }
+  #PageFooter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88f;
+  }
+  footer {
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+
+  /* header */
+  #headerLogoAndTitles > img {
+    width: 75px;
+  }
+
+  article footer > p {
+    display: none;
+  }
+
+  #pageHeader img:first-child {
+    display: none;
+  }
+  #hamburgerCheckBox {
+    display: none;
+  }
+  #navigation input:not(:checked) ~ #navList {
+    display: none;
+  }
+  #navigation input:checked ~ #navList {
+    display: block;
+  }
+
+  #pageHeader {
+    background-color: #55cdf8; /*rgba(85, 205, 248, 1);*/
+  }
+  label {
+    display: block;
+    padding: 5px;
+  }
+  #hamburgerCheckBox {
+    display: none;
+  }
+  #navigation input:not(:checked) ~ #navList {
+    display: none;
+  }
+  #navigation input:checked ~ #navList {
+    display: block;
+  }
+  #hamburgerMenu label {
+    float: right;
+  }
+  #navList {
+    font-size: 10px;
+  }
+  #navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  #navigation li {
+    width: 100%;
+    float: left;
+  }
+  #navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #navigation li a:hover {
+    background-color: #111;
+  }
+  #navigation .active {
+    background-color: #aa15aa; /*rgb(170, 21, 170);*/
+  }
+
+  section article h2 {
+    letter-spacing: 0.15rem;
+  }
+  section article p {
+    line-height: 1.1rem;
+    text-indent: 2%;
+    word-spacing: 0.05em;
+  }
+  section article h2:first-letter {
+    font-size: 1.2em;
+  }
+  section article h2 + p {
+    font-size: 1.1em;
+  }
+
+  aside ol li a:hover {
+    color: #fea04e;
+  }
+  aside ol li a:visited {
+    color: #fff06f;
+  }
+  aside ol li a:active {
+    color: #f99089;
+  }
+
+
+  body {
+    background-color: #88f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body header section h2 {
+    font-family: "Notable";
+  }
+  body section article h2 {
+    text-transform: uppercase;
+  }
+  article {
+    background-color: #55cdf8; /*rgba(85, 205, 248, 1);*/
+    border-style: double double double double;
+    border-width: 2px;
+    border-color: #aa15aa; /*rgb(170, 21, 170);*/
+  }
+  #aside {
+    padding: 6px;
+    background-color: #aa15aa; /*rgb(170, 21, 170);*/
+  }
+  #aside section a img.asideImage {
+    width: 100px;
+  }
+  #product1,
+  #product2,
+  #product3 {
+    background-color: #ff11ff; /*rgb(255, 17, 255);*/
+  }
+
+  /* Footer */
+  #PageFooter {
+    width: 100%;
+  }
+  #copywriteStatement {
+    width: calc(100% - 310px);
+    float: left;
+    background-color: #f2a;
+    color: #ffc72b;;
+  }
+  #cookieStatement {
+    width: 300px;
+    float: left;
+    background-color: rgba(255, 170, 0, 0.5); /*#fa0*/
+    color: #fff;
+    z-index: 9999;
+  }
+  #PageFooter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2a;
+  }
+  footer {
+    clear: both;
+  }
+}
